@@ -1,6 +1,5 @@
 var x=Math.floor(Math.random()*10 + 1);
 var guess=1;
-console.log(x);
 document.getElementById("submit").onclick=function(){
     var y=document.getElementById("input").value;
     if(x==y){
